@@ -1,0 +1,20 @@
+<div class="row-fluid">
+    <h1>Notifications</h1>
+    <ul class="nav nav-pills">
+        <li>
+            <a href="#/home">Home</a>
+        </li>
+        <li class="active">
+            <a href="#/notifications">Notifications</a>
+        </li>
+    </ul>
+    <div class="btn-group btn-group-vertical example">
+        <button class="btn btn-default" ng-click="showAlert()">Show Alert</button>
+        <button class="btn btn-danger" ng-click="showAlert()">Show Alert</button>
+        <button class="btn btn-primary" ng-click="showConfirm()">Show Confirm</button>
+        <button class="btn btn-success" ng-click="showPrompt()">Show Prompt</button>
+        <button class="btn btn-info" ng-click="causeBeep()">Cause Beep</button>
+        <button class="btn btn-warning" ng-click="causeVibrate()">Cause Vibrate</button>
+    </div>
+    <h1>{{message}}</h1>
+</div>
